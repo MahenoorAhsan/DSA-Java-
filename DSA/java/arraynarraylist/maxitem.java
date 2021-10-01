@@ -11,7 +11,7 @@ public class maxitem {
     static int max(int[] arr){
         int lar=arr[0];
         for(int i=0;i<arr.length;i++ ){ 
-            if(arr[i]>lar){
+            if(arr[i]>lar) {
                 lar=arr[i];
             }
         }
